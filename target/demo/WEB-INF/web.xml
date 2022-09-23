@@ -11,14 +11,17 @@
       <small-icon>images/small-icon.gif</small-icon>
       <large-icon>images/large-icon.gif</large-icon>
     </icon>
-    <servlet-name>demo</servlet-name>
+    <servlet-name>testServlet</servlet-name>
     <servlet-class>com.example.demo.testServlet</servlet-class>
+    <init-param>
+      <param-name>author</param-name>
+      <param-value>Octopus</param-value>
+    </init-param>
   </servlet>
     
   <servlet-mapping>
-    <servlet-name>demo</servlet-name>
-    <url-pattern>/demo</url-pattern>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/testServlet</url-pattern>
   </servlet-mapping>
-  
 
 </web-app>
