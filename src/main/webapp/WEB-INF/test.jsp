@@ -5,6 +5,12 @@
         <title>Test</title>
     </head>
     <body>
-        <p>This page is generated from a servlet</p>        
+        <p>This page is generated from a servlet</p>
+        <p>
+            <% 
+                String name = request.getParameter("name");
+                System.out.println("Hello " + name);
+            %>
+        </p>        
     </body>
 </html>
