@@ -5,6 +5,6 @@
         <title>Test</title>
     </head>
     <body>
-        <p>This page is generated from a servlet</p>
+        <p>This page is generated from a servlet</p>        
     </body>
 </html>
