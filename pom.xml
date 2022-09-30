@@ -71,6 +71,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <testSourceDirectory>${basedir}/src/main/webapp/demo/servlets</testSourceDirectory>
   </build>
 </project>
